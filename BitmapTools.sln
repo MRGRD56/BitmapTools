@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitmapTools", "BitmapTools\BitmapTools.csproj", "{27991609-DA9E-4308-90C6-60A4D6C415A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitmapTools.Wpf", "BitmapTools.Wpf\BitmapTools.Wpf.csproj", "{34ED020B-1F92-4A7D-8508-8EFE6EC557C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitmapTools.WpfTestApp", "BitmapTools.WpfTestApp\BitmapTools.WpfTestApp.csproj", "{D60DD455-5E82-4E4A-A759-2FAFA785DC9E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27991609-DA9E-4308-90C6-60A4D6C415A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27991609-DA9E-4308-90C6-60A4D6C415A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27991609-DA9E-4308-90C6-60A4D6C415A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27991609-DA9E-4308-90C6-60A4D6C415A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34ED020B-1F92-4A7D-8508-8EFE6EC557C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34ED020B-1F92-4A7D-8508-8EFE6EC557C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34ED020B-1F92-4A7D-8508-8EFE6EC557C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34ED020B-1F92-4A7D-8508-8EFE6EC557C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D60DD455-5E82-4E4A-A759-2FAFA785DC9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D60DD455-5E82-4E4A-A759-2FAFA785DC9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D60DD455-5E82-4E4A-A759-2FAFA785DC9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D60DD455-5E82-4E4A-A759-2FAFA785DC9E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
