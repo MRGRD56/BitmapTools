@@ -4,21 +4,8 @@
     <projectFile>BitmapTools.WpfTestApp/BitmapTools.WpfTestApp.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30c85db6-4a49-4c64-857b-6c78a1537921" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BitmapTools/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BitmapTools.Wpf/BitmapTools.Wpf.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BitmapTools.Wpf/WpfImageExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BitmapTools.WpfTestApp/App.xaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BitmapTools.WpfTestApp/App.xaml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BitmapTools.WpfTestApp/AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BitmapTools.WpfTestApp/BitmapTools.WpfTestApp.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BitmapTools.WpfTestApp/MainWindow.xaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BitmapTools.WpfTestApp/MainWindow.xaml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BitmapTools.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BitmapTools/BitmapTools.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BitmapTools/ColorFactory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BitmapTools/ImageExtensions.cs" afterDir="false" />
+    <list default="true" id="30c85db6-4a49-4c64-857b-6c78a1537921" name="Default Changelist" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/BitmapTools/ImageExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BitmapTools/ImageExtensions.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,12 +34,12 @@
       <option value="$PROJECT_DIR$/BitmapTools.Wpf/Class1.cs" />
       <option value="$PROJECT_DIR$/BitmapTools/BitmapTools.csproj" />
       <option value="$PROJECT_DIR$/BitmapTools.Wpf/BitmapTools.Wpf.csproj" />
-      <option value="$PROJECT_DIR$/BitmapTools/ImageExtensions.cs" />
       <option value="$PROJECT_DIR$/BitmapTools/ColorExtensions.cs" />
       <option value="$PROJECT_DIR$/BitmapTools.WpfTestApp/MainWindow.xaml" />
       <option value="$PROJECT_DIR$/BitmapTools.WpfTestApp/MainWindow.xaml.cs" />
       <option value="$PROJECT_DIR$/BitmapTools.Wpf/WpfImageExtensions.cs" />
       <option value="$PROJECT_DIR$/BitmapTools/ColorFactory.cs" />
+      <option value="$PROJECT_DIR$/BitmapTools/ImageExtensions.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1uskLwlv7z5BeHOGvTyxqzW020v" />
@@ -105,8 +92,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1625461633951</updated>
-      <workItem from="1625461642889" duration="8352000" />
+      <workItem from="1625461642889" duration="8875000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1625470348197</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1625470348197</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,5 +123,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>

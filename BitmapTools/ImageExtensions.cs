@@ -10,12 +10,27 @@ using System.Threading.Tasks;
 
 namespace BitmapTools
 {
+    /// <summary>
+    /// Provides extensions for <see cref="System.Drawing.Image"/>.
+    /// </summary>
     public static class ImageExtensions
     {
         private static readonly ImageFormat DefaultImageFormat = ImageFormat.Png;
         
+        /// <summary>
+        /// Creates a stream from the <paramref name="image"/>. The format is PNG.
+        /// </summary>
+        /// <param name="image"></param>
+        /// <returns></returns>
         public static MemoryStream GetStream(this Image image) =>
             image.GetStream(DefaultImageFormat);
+
+        /// <summary>
+        /// Creates a stream from the <paramref name="image"/>.
+        /// </summary>
+        /// <param name="image"></param>
+        /// <param name="imageFormat"></param>
+        /// <returns></returns>
         public static MemoryStream GetStream(this Image image, ImageFormat imageFormat)
         {
             var memoryStream = new MemoryStream();
@@ -23,6 +38,11 @@ namespace BitmapTools
             return memoryStream;
         }
         
+        /// <summary>
+        /// Returns an array of bytes from the <paramref name="image"/>. The format is PNG.
+        /// </summary>
+        /// <param name="image"></param>
+        /// <returns></returns>
         public static
             #if NETSTANDARD2_1_COMPATIBLE
             Memory<byte>
@@ -32,6 +52,12 @@ namespace BitmapTools
             GetBytes(this Image image) =>
             image.GetBytes(DefaultImageFormat);
         
+        /// <summary>
+        /// Returns an array of bytes from the <paramref name="image"/>.
+        /// </summary>
+        /// <param name="image"></param>
+        /// <param name="imageFormat"></param>
+        /// <returns></returns>
         public static 
             #if NETSTANDARD2_1_COMPATIBLE
             Memory<byte>
@@ -46,9 +72,20 @@ namespace BitmapTools
         
         #if NETSTANDARD2_1_COMPATIBLE
 
+        /// <summary>
+        /// Returns an array of bytes from the <paramref name="image"/> in asynchronous mode. The format is PNG.
+        /// </summary>
+        /// <param name="image"></param>
+        /// <returns></returns>
         public static async Task<Memory<byte>> GetBytesAsync(this Image image) =>
             await image.GetBytesAsync(DefaultImageFormat);
         
+        /// <summary>
+        /// Returns an array of bytes from the <paramref name="image"/> in asynchronous mode.
+        /// </summary>
+        /// <param name="image"></param>
+        /// <param name="imageFormat"></param>
+        /// <returns></returns>
         public static async Task<Memory<byte>> GetBytesAsync(this Image image, ImageFormat imageFormat)
         {
             await using var memoryStream = image.GetStream();

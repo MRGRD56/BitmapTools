@@ -9,6 +9,9 @@ using System.Windows.Media.Imaging;
 
 namespace BitmapTools.Wpf
 {
+    /// <summary>
+    /// Provides extensions for WPF images.
+    /// </summary>
     public static class WpfImageExtensions
     {
         /// <summary>
