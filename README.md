@@ -3,7 +3,7 @@ System.Drawing and WPF extensions for images.
 
 ## BitmapTools
 
-Nuget Package: https://www.nuget.org/packages/BitmapTools/
+NuGet Package: https://www.nuget.org/packages/BitmapTools/
 
 #### Installation
  - **.NET CLI** `dotnet add package BitmapTools`
@@ -22,7 +22,7 @@ Nuget Package: https://www.nuget.org/packages/BitmapTools/
 
 ## BitmapTools.Wpf
 
-Nuget Package: https://www.nuget.org/packages/BitmapTools.Wpf/
+NuGet Package: https://www.nuget.org/packages/BitmapTools.Wpf/
 
 #### Installation
  - **.NET CLI** `dotnet add package BitmapTools.Wpf`
