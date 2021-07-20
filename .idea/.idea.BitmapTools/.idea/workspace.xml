@@ -4,11 +4,11 @@
     <projectFile>BitmapTools.WpfTestApp/BitmapTools.WpfTestApp.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30c85db6-4a49-4c64-857b-6c78a1537921" name="Default Changelist" comment="first commit">
+    <list default="true" id="30c85db6-4a49-4c64-857b-6c78a1537921" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BitmapTools/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BitmapTools/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BitmapTools.Wpf/BitmapTools.Wpf.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BitmapTools.Wpf/BitmapTools.Wpf.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BitmapTools.WpfTestApp/BitmapTools.WpfTestApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BitmapTools.WpfTestApp/BitmapTools.WpfTestApp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BitmapTools.Wpf/WpfImageExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BitmapTools.Wpf/WpfImageExtensions.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BitmapTools.WpfTestApp/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BitmapTools.WpfTestApp/MainWindow.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BitmapTools/ColorFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BitmapTools/ColorFactory.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BitmapTools/ImageExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BitmapTools/ImageExtensions.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +27,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A84B63C7-42D5-480B-9047-8BE2A17C9AC4/76/04eedf75/Image.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/BitmapTools/BitmapExtensions.cs" />
@@ -34,11 +37,14 @@
       <option value="$PROJECT_DIR$/BitmapTools/BitmapTools.csproj" />
       <option value="$PROJECT_DIR$/BitmapTools/ColorExtensions.cs" />
       <option value="$PROJECT_DIR$/BitmapTools.WpfTestApp/MainWindow.xaml" />
-      <option value="$PROJECT_DIR$/BitmapTools.Wpf/WpfImageExtensions.cs" />
-      <option value="$PROJECT_DIR$/BitmapTools/ColorFactory.cs" />
       <option value="$PROJECT_DIR$/BitmapTools.Wpf/BitmapTools.Wpf.csproj" />
-      <option value="$PROJECT_DIR$/BitmapTools.WpfTestApp/BitmapTools.WpfTestApp.csproj" />
+      <option value="$PROJECT_DIR$/BitmapTools/BitmapFactory.cs" />
+      <option value="$PROJECT_DIR$/BitmapTools/Models/ResizeMode.cs" />
+      <option value="$PROJECT_DIR$/BitmapTools/Models/ImageResizeMode.cs" />
       <option value="$PROJECT_DIR$/BitmapTools/ImageExtensions.cs" />
+      <option value="$PROJECT_DIR$/BitmapTools/ColorFactory.cs" />
+      <option value="$PROJECT_DIR$/BitmapTools.Wpf/WpfImageExtensions.cs" />
+      <option value="$PROJECT_DIR$/BitmapTools.WpfTestApp/BitmapTools.WpfTestApp.csproj" />
       <option value="$PROJECT_DIR$/BitmapTools.WpfTestApp/MainWindow.xaml.cs" />
     </changedPaths>
   </component>
@@ -52,7 +58,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34973544" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -93,7 +99,8 @@
       <option name="presentableId" value="Default" />
       <updated>1625461633951</updated>
       <workItem from="1625461642889" duration="8875000" />
-      <workItem from="1626759753171" duration="1816000" />
+      <workItem from="1626759753171" duration="2633000" />
+      <workItem from="1626772987694" duration="8103000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1625470348197</created>
@@ -102,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625470348197</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add image resizing">
+      <created>1626762119565</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1626762119565</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +140,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="Add image resizing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add image resizing" />
   </component>
 </project>

@@ -5,11 +5,12 @@
         <OutputType>WinExe</OutputType>
         <UseWPF>true</UseWPF>
         <TargetFramework>net5.0-windows</TargetFramework>
+        <PackageVersion>1.1.0</PackageVersion>
     </PropertyGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\BitmapTools.Wpf\BitmapTools.Wpf.csproj"/>
-        <ProjectReference Include="..\BitmapTools\BitmapTools.csproj"/>
+        <ProjectReference Include="..\BitmapTools.Wpf\BitmapTools.Wpf.csproj" />
+        <ProjectReference Include="..\BitmapTools\BitmapTools.csproj" />
     </ItemGroup>
 
 <!--    <ItemGroup>-->

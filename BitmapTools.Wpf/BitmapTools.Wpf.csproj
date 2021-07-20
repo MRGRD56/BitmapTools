@@ -4,6 +4,11 @@
         <TargetFrameworks>net48;net5.0-windows;netcoreapp3.1</TargetFrameworks>
         <UseWPF>true</UseWPF>
         <LangVersion>9.0</LangVersion>
+        <PackageVersion>1.1.0</PackageVersion>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Authors>MRGRD56</Authors>
+        <PackageProjectUrl>https://github.com/MRGRD56/BitmapTools</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/MRGRD56/BitmapTools</RepositoryUrl>
     </PropertyGroup>
 
     <ItemGroup>
