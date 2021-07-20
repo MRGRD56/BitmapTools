@@ -4,10 +4,13 @@
     <projectFile>BitmapTools.WpfTestApp/BitmapTools.WpfTestApp.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30c85db6-4a49-4c64-857b-6c78a1537921" name="Default Changelist" comment="">
+    <list default="true" id="30c85db6-4a49-4c64-857b-6c78a1537921" name="Default Changelist" comment="v1.1.0 add extension methods for resizing and compressing images">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BitmapTools/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BitmapTools/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BitmapTools.Wpf/BitmapTools.Wpf.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BitmapTools.Wpf/BitmapTools.Wpf.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BitmapTools.Wpf/WpfImageExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BitmapTools.Wpf/WpfImageExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BitmapTools.WpfTestApp/BitmapTools.WpfTestApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BitmapTools.WpfTestApp/BitmapTools.WpfTestApp.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BitmapTools.WpfTestApp/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BitmapTools.WpfTestApp/MainWindow.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BitmapTools/BitmapTools.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BitmapTools/BitmapTools.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BitmapTools/ColorFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BitmapTools/ColorFactory.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BitmapTools/ImageExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BitmapTools/ImageExtensions.cs" afterDir="false" />
     </list>
@@ -100,7 +103,7 @@
       <updated>1625461633951</updated>
       <workItem from="1625461642889" duration="8875000" />
       <workItem from="1626759753171" duration="2633000" />
-      <workItem from="1626772987694" duration="8103000" />
+      <workItem from="1626772987694" duration="8422000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1625470348197</created>
@@ -116,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626762119565</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="v1.1.0 add extension methods for resizing and compressing images">
+      <created>1626781509553</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1626781509553</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +151,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="first commit" />
     <MESSAGE value="Add image resizing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add image resizing" />
+    <MESSAGE value="v1.1.0 add extension methods for resizing and compressing images" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.1.0 add extension methods for resizing and compressing images" />
   </component>
 </project>

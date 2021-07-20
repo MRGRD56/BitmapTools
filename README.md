@@ -1,5 +1,5 @@
 # BitmapTools
-System.Drawing and WPF extensions for images.
+Extensions for System.Drawing and WPF images.
 
 ## BitmapTools
 
@@ -34,4 +34,4 @@ NuGet Package: https://www.nuget.org/packages/BitmapTools.Wpf/
  - .NET 5.0 (Windows) `net5.0-windows`
 
 #### Dependencies
- - [BitmapTools](https://www.nuget.org/packages/BitmapTools/) (>= 1.0.0)
+ - [BitmapTools](https://www.nuget.org/packages/BitmapTools/) (>= 1.1.0)
