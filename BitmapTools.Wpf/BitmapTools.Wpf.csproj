@@ -10,4 +10,13 @@
       <ProjectReference Include="..\BitmapTools\BitmapTools.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Reference Include="PresentationCore" Condition="'$(TargetFramework)' == 'net48'" />
+      <Reference Include="WindowsBase" Condition="'$(TargetFramework)' == 'net48'" />
+<!--      <Reference Include="PresentationFramework" Condition="'$(TargetFramework)' == 'net48'" />-->
+<!--      <Reference Include="System.Windows" Condition="'$(TargetFramework)' == 'net48'" />-->
+<!--      <Reference Include="System.Windows.Presentation" Condition="'$(TargetFramework)' == 'net48'" />-->
+<!--      <Reference Include="System.Xaml" Condition="'$(TargetFramework)' == 'net48'" />-->
+    </ItemGroup>    
+
 </Project>

@@ -29,6 +29,7 @@ namespace BitmapTools.WpfTestApp
             var convertedBitmap = bitmapSource.ToBitmap();
             bitmap.Save("original.png", ImageFormat.Png);
             convertedBitmap.Save("converted.png", ImageFormat.Png);
+            bitmap.Resize(75, 50).Save("resized.png", ImageFormat.Png);
         }
     }
 }
